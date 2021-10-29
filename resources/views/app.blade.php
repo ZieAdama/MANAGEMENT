@@ -16,6 +16,10 @@
         <!-- Scripts -->
         @routes
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="BackTemplate/plugins/jquery/jquery.min.js"></script>
+		<script src="BackTemplate/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="BackTemplate/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+		<script src="BackTemplate/dist/js/adminlte.js"></script> 
     </head>
     <body class="font-sans antialiased">
         @inertia
